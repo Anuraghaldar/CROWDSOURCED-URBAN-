@@ -6,7 +6,7 @@ import GoogleMap from "./GoogleMap";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Slider } from '@mui/material';
 import UncontrolledExample from "./Testimonials";
-import Intro from "./Intro"; 
+import Intro from "./intro"; 
 
 const UserHome = () => {
     const [userName, setUserName] = useState('');
